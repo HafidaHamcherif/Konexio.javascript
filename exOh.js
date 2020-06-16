@@ -1,8 +1,14 @@
-function exOH(str){
+function exOh(str){
     var arr = str.split('') 
-    console.log(arr);
-
+    console.log(arr);   
 }
-exOH('xooxxo');
+exOh('xooxxo');
+exOh('x');
 //xooxxo -> true
 //x -> false
+
+
+
+
+
+
