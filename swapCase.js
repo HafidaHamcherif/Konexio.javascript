@@ -14,9 +14,15 @@
 }
 swapCase('Hello-LOL');*/
 
-
 var str = 'Hello Word';
-var arr = str.split('')
-var ret = arr.reverse();
-var maj = 
-console.log(ret);
+var arr = str.split(' ');
+for(i=0; i < arr.length;i++){
+    var rev = arr.reverse();
+    console.log(rev);
+    var letter = arr.join();
+    var maj = letter.toUpperCase();
+    console.log(maj);
+}
+
+
+
