@@ -6,7 +6,7 @@ var arr = [{
     surname: 'Craig'
 }]
 var arr2 = arr.map(function (el){
-    return Object.values(el);
+    return el.firstName + ' ' + el.surname;
 })
 
 console.log(arr2);

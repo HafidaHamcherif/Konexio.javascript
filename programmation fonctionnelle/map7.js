@@ -7,11 +7,13 @@ var arr = [{
 }]
 
 var arr2 = arr.map(function (el){
-    var obj = Object.assign({},el,{fullName:el});
-    var rest = obj + Object.values(el);
-    delete obj.firstName;
-    delete obj.surname;
+    full = el.firstName +' '+ el.surname;
+    var obj = {
+        fullName: full
+    };
     return obj;
 })
 console.log(arr2);
+
+
 

@@ -8,3 +8,4 @@ function isEven(num){
 }
 console.log(isEven(4));
 console.log(isEven(1));
+

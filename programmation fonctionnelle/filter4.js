@@ -3,8 +3,7 @@ function isEven(num){
 }
 
 var arr = [1, 2, 3, 4];
-var arr2 = arr.map(function(elem){
+var arr2 = arr.filter(function (elem){
     return isEven(elem);
-})
-
+});
 console.log(arr2);
